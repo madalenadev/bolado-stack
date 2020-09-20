@@ -4,7 +4,7 @@ import (
 	"bolado-stack/src/domain"
 	"context"
 
-	"github.com/estrategiahq/questions-madalena/repositories"
+	"bolado-stack/src/repositories"
 )
 
 // IUserService is the interface for user mongo repository

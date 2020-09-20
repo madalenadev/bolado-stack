@@ -19,6 +19,7 @@ type Config struct {
 	RequestID string
 }
 
+type contextKey string
 type level string
 
 func (lvl level) toString() string {
@@ -26,14 +27,9 @@ func (lvl level) toString() string {
 }
 
 const (
-	infoLevel    level = "\033[32m[INFO]\033[0m"
-	successLevel level = "\033[32m[SUCCESS]\033[0m"
-	errorLevel   level = "\033[31m[ERROR]\033[0m"
-)
-
-type contextKey string
-
-const (
+	infoLevel    level      = "\033[32m[INFO]\033[0m"
+	successLevel level      = "\033[32m[SUCCESS]\033[0m"
+	errorLevel   level      = "\033[31m[ERROR]\033[0m"
 	keyRequestID contextKey = contextKey("request-id")
 )
 

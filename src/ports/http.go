@@ -3,6 +3,7 @@ package ports
 import (
 	"bolado-stack/src/handlers"
 	"bolado-stack/src/services"
+	"log"
 	"net/http"
 
 	"github.com/labstack/echo/v4"
@@ -34,7 +35,7 @@ func SetupHTTPServer(config HTTPPortConfig) {
 
 	setupRoutes(e, config)
 
-	e.Start(":1234")
+	log.Fatalln(e.Start(":1234"))
 }
 
 func setupRoutes(e *echo.Echo, config HTTPPortConfig) {

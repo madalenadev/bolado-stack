@@ -3,7 +3,7 @@ package handlers
 import (
 	"bolado-stack/src/services"
 
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 )
 
 type UserHandler struct {
