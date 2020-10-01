@@ -1,6 +1,6 @@
-<img width="400" src="stack.png" alt="logo">
+<img width="550" src="stack.png" alt="logo">
 
-# Bolada Stack
+# Bolado Stack
 
 > Playground for developers who identify themselves as a Bolado, with a focus on simplicity, scalability and performance; Bolado -> Full-Stack on steroids 🪐
 
